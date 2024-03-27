@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMMVersa</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; /* White background */
+    color: rgb(96, 49, 49); /* Brown as main color */
+  }
+  /* Styling for sections */
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  /* Styling for menu */
+  nav {
+    background-color: rgb(96, 49, 49); /* Brown as main color */
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  /* Styling for button */
+  .btn {
+    background-color: rgb(96, 49, 49); /* Brown as main color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background-color: #8B4513; /* Darker brown on hover */
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+  </nav>
+  
+  <section id="home">
+    <img src="pictures/background.jpg" alt="Background Image" style="width: 100%; height: 100vh; object-fit: cover;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; text-align: center; color: white;">
+      <h1>We will show your unique brand to the world</h1>
+      <a href="#discover" class="btn">Learn More</a>
+    </div>
+  </section>
+  
+  <section id="discover">
+    <h2>DISCOVER YOUR BRAND'S ESSENCE</h2>
+    <p>Unveil your story, embracing authenticity and confidence. Let your online presence reflect your true character. Be yourself, always.</p>
+  </section>
+  
+  <section id="reviews">
+    <h2>Customer Reviews</h2>
+    <div>
+      <img src="pictures/customerone.jpg" alt="Review 1" style="max-width: 100%; max-height: 100vh; object-fit: cover;">
+      <img src="pictures/customertwo.jpg" alt="Review 2" style="max-width: 100%; max-height: 100vh; object-fit: cover;">
+      <img src="pictures/customethree.jpg" alt="Review 3" style="max-width: 100%; max-height: 100vh; object-fit: cover;">
+    </div>
+  </section>
+  
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <a href="projects.html"><img src="project.jpg" alt="Project"></a>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@example.com</p>
+    <p>Phone: 123-456-7890</p>
+    <p>Follow us on social media:</p>
+    <a href="https://www.instagram.com/example" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+    <a href="https://www.facebook.com/example" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+  </section>
+</body>
+</html>
